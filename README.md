@@ -1,15 +1,35 @@
-# edge-installer
+## edge-installer
 
-## AG10  
-curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_docker.sh | bash  
-curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_nodered.sh | bash  
+このリポジトリは、エッジデバイスに Docker と Node-RED をインストールするためのスクリプトを提供します。
 
-AG10設定画面 http://192.168.0.254{:target="_blank"} 
-node-red http://192.168.0.254:1880{:target="_blank"}   
+### 対応デバイス
 
-## Virtual box  
-curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_docker.sh | bash  
-curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_nodered.sh | bash  
+- AG10
+- VirtualBox
 
-node-red http://localhost:1880{:target="_blank"}   
-influxDB http://localhost:8086{:target="_blank"} 
+### インストール方法
+
+1. **Dockerのインストール:**
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_docker.sh | bash
+   ```
+
+2. **Node-REDのインストール:**
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/YKGW-MK-SCC/edge-installer/main/inst_nodered.sh | bash
+   ```
+
+### アクセス方法
+
+#### AG10
+
+- **AG10設定画面:** http://192.168.0.254
+- **Node-RED:** http://192.168.0.254:1880 
+
+#### VirtualBox
+
+- **Node-RED:** http://localhost:1880
+- **InfluxDB:** http://localhost:8086 
+
+
+**注意:** 上記のURLは、環境によっては変更が必要な場合があります。 
