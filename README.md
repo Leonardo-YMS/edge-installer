@@ -29,7 +29,7 @@
 #### VirtualBox
 
 - **Node-RED:** http://localhost:1880
-- **InfluxDB:** http://localhost:8086 
+- **InfluxDB:** http://localhost:8086 <a href="http://localhost:8086" target="_blank">http://localhost:8086</a>
 
 
 **注意:** 上記のURLは、環境によっては変更が必要な場合があります。 
